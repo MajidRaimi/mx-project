@@ -6,12 +6,14 @@ ENV PYTHONDONTWRITEBYTECODE=1 \
 
 WORKDIR /app
 
+# Install system dependencies including libGL.so.1
 RUN apt-get update && apt-get install -y \
     build-essential \
     libglib2.0-0 \
     libsm6 \
     libxext6 \
     libxrender-dev \
+    libgl1-mesa-glx \
     git \
     && rm -rf /var/lib/apt/lists/*
 
