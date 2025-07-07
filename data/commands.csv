@@ -1,0 +1,13 @@
+action,value
+rotate_clockwise,45
+move_left,100
+move_forward,30
+move_left,20
+move_left,20
+move_left,20
+move_back,30
+move_left,50
+move_forward,30
+move_left,20
+move_left,20
+move_back,30
